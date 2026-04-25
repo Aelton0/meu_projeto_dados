@@ -4,7 +4,7 @@ from typing import Callable
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+#plot
 def standardized_plot(
     func: Callable[[np.ndarray], np.ndarray],
     x_range: tuple[float, float] = (0.0, 10.0),
